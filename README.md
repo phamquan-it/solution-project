@@ -1,4 +1,4 @@
-# 📌 Overview
+# Overview
 
 **Solution.dev** is a platform that provides **comprehensive technology solutions**, including:
 - Website development
@@ -10,9 +10,9 @@ Built to support **digital transformation for businesses**, Solution.dev aims to
 
 ---
 
-# 🧩 Service Categories
+# Service Categories
 
-### 🎯 1. Platform Goals
+## 1. Platform Goals
 
 The system is designed to simplify the software service ordering process, **without requiring an account upfront**.
 
@@ -25,7 +25,7 @@ The system is designed to simplify the software service ordering process, **with
 
 ---
 
-### 🛠️ 2. Services Offered
+## 2. Services Offered
 
 | Service                    | Description                                    | Starting Price |
 |---------------------------|------------------------------------------------|----------------|
@@ -36,24 +36,24 @@ The system is designed to simplify the software service ordering process, **with
 
 ---
 
-### 💵 3. Price Estimates
+## 3. Price Estimates
 
 - Basic app: Depends on features required
 - Advanced app with setup: Based on actual scope
 
 ---
 
-# 🔁 Workflow Process
+# Workflow Process
 
-1. **Request intake** → Free analysis & consultation
-2. **Quoting + tech proposal** → Flexible to your budget
-3. **Project kickoff** → Pay via QR/e-wallet
-4. **Development** → Milestone-based delivery
+1. **Request intake** → Free analysis & consultation  
+2. **Quoting + tech proposal** → Flexible to your budget  
+3. **Project kickoff** → Pay via QR/e-wallet  
+4. **Development** → Milestone-based delivery  
 5. **Acceptance & support** → Ongoing maintenance included
 
 ---
 
-# 🌐 Online Project Management
+# Online Project Management
 
 Clients get access to a dashboard to:
 - Track real-time progress
@@ -63,7 +63,7 @@ Clients get access to a dashboard to:
 
 ---
 
-# ⚙️ Technology Stack
+# Technology Stack
 
 | Component   | Technology                 |
 |-------------|----------------------------|
@@ -74,25 +74,25 @@ Clients get access to a dashboard to:
 
 ---
 
-# 🧱 System Architecture
+# System Architecture
 
-### 1. User Roles & Access
+## 1. User Roles & Access
 - Laravel RBAC: role-based permissions
 - Login, tokens, password recovery
 
-### 2. Projects & Services
+## 2. Projects & Services
 - Assign tech stack, deadlines, files per project
 - Track status and cost per phase
 
-### 3. Transactions
+## 3. Transactions
 - Log all payments, refunds, recharges
-- Monitor financial flow by user and project
+- Monit financial flow by user and project
 
-### 4. Blog & Community Features
+## 4. Blog & Community Features
 - Article system, comments, likes/dislikes
 - Moderated user-generated content
 
-### 5. System Tables
+## 5. System Tables
 | Table        | Description                            |
 |--------------|----------------------------------------|
 | `settings`   | Global config, exchange rate, etc.     |
@@ -102,7 +102,7 @@ Clients get access to a dashboard to:
 
 ---
 
-# 🔐 Security & Extensibility
+# Security & Extensibility
 
 - Detailed RBAC permissions
 - Modular by user/service/project
@@ -111,7 +111,7 @@ Clients get access to a dashboard to:
 
 ---
 
-# 🎯 Target Market
+# Target Market
 
 - **Who**: SMBs, startups, SaaS builders
 - **Needs**: User authentication, history logging, chat integration
@@ -119,7 +119,7 @@ Clients get access to a dashboard to:
 
 ---
 
-# 🏆 Competitive Advantages
+# Competitive Advantages
 
 - **Highly customizable**: Easy API integration
 - **Deployment-ready**: Simple UI, easy to maintain
@@ -127,7 +127,7 @@ Clients get access to a dashboard to:
 
 ---
 
-# 📈 Development Strategy
+# Development Strategy
 
 - Focus on **niche markets** (small SaaS, startups)
 - Offer **cost-effective** solutions compared to large providers (SendBird, Twilio)
@@ -136,22 +136,22 @@ Clients get access to a dashboard to:
 
 ---
 
-# 🛠️ Custom Software Development
+# Custom Software Development
 
-### Features:
+## Features:
 - Tailored design per project
 - Flexible system customization
 - Seamless integration into legacy systems
 
-### Benefits:
+## Benefits:
 - **Flexible pricing** — budget-friendly
 - **Rapid deployment** with experienced devs
 - **Reliable support** — build long-term partnerships
 
 ---
 
-# 💡 Flexible Payment Options
+# Flexible Payment Options
 
-- **Pay-as-you-go**: Reduce financial strain
-- **Easier onboarding**: Lower initial commitment
+- **Pay-as-you-go**: Reduce financial strain  
+- **Easier onboarding**: Lower initial commitment  
 - **Startup-friendly**: Great for freelancers & bootstrapped teams
