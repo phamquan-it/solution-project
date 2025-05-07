@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  apache-php:
+    image: php:8.1-apache
+    container_name: lamp_apache_php
+    restart: unless-stopped
+    volumes:
+      - ./lamp:/var/www/html
+    networks:
+      - lamp_network
+    ports:
+      - "82:80"
+    depends_on:
+      - mysql
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  mysql:
+    image: mysql:8.0
+    container_name: lamp_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - lamp_network
+    ports:
+      - "3307:3306"
+  nodejs:
+    image: node:18
+    container_name: frontend_app
+    working_dir: /app
+    volumes:
+      - ./front-end:/app
+#    command: ["npm", "run", "dev"]
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    networks:
+      - lamp_network
+    depends_on:
+      - apache-php
+volumes:
+  mysql_data:
+
+networks:
+  lamp_network:
+    driver: bridge
+
